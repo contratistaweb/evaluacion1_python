@@ -1,6 +1,4 @@
-from os import remove
-
-
+# Ejercicio 3 Menu
 opcionSeleccionada = 10;
 productos = [];
 
@@ -42,7 +40,4 @@ while opcionSeleccionada!=0:
             if productObj.get('idProducto') == buscar:
                  productos.remove(producto)
 
-        
-
 print(productos)
-
