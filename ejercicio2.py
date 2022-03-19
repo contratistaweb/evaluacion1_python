@@ -8,4 +8,3 @@ for  i in range(10):
     frutas.append(nuevaFruta);
     
 print(frutas[::-1]);
-
